@@ -9,7 +9,7 @@ Feature: HepsiBuradaTestCase
     When I enter the "123456ABC" password
     When I click on the login
     Then Wait for the home page to load and checkout login
-    When I search for the "telefon" product
+    When I search for the "Logitech M170 USB Alıcılı Kablosuz Mouse - Gri" product
     Then I should see the products
     When I click on the product
     Then I changed the window tab
